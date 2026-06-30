@@ -1,0 +1,18 @@
+name: rgbic_light_control
+description: Simple custom RGBIC BLE light controller with Thunder and Flash effects.
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^2.3.9
+  permission_handler: ^12.0.0
+  flutter_colorpicker: ^1.1.0
+  shared_preferences: ^2.5.5
+
+flutter:
+  uses-material-design: true
